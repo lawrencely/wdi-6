@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300&subset=latin,latin-ext);
+
+body {
+  background-color: #ddd;
+  font-family: 'Roboto Condensed';
+  
+}
+
+a {
+  color: #444;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline;
+}
+.butterflies {
+  max-width: 200px;
+  display: block;
+}
+
+.butterflies.ul {
+  display: inline-block;
+}
+
+ul.butterflies {
+  list-style: none;
+}
+
+.butterfly img {
+  max-height: 500px;
+  display: block;
+  margin: auto;
+  box-shadow: 5px 5px 20px #000;
+  border-radius: 5px;
+}
+
+.butterfly section {
+  text-align: right;
+}

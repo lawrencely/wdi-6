@@ -1,0 +1,40 @@
+
+
+body {
+	color: white;
+	background-color: grey;
+	text-align: center;
+}
+
+.container {
+	max-width: 960px;
+	border: 1px dashed black;
+	margin: auto; /* center */
+}
+
+#logo {
+	font-size: 500%;
+	text-align: center;
+	text-shadow: 25px 25px 25px black; /* text-shadow: +-x +-y blur black; */
+}
+
+p {
+	font-family: Arial;
+}
+
+
+article h2 {
+	font-style: italic;
+	background-color: pink;
+	display: inline;
+	border: 1px solid black;
+	margin-top: 60px;
+	padding: 13px;
+	border-radius: 22px;
+	font-size: 200%;
+}
+
+h2.footer {
+	background-color: purple;
+	color: black;
+}

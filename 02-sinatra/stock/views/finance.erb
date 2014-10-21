@@ -1,0 +1,12 @@
+<form action"/finance">
+	<input name="stock" placeholder="Search Stock Symbol">
+	<button>Search Now!</button>
+</form>
+<p>
+	<%if @price && @price > 0 %>
+		This price for <%= @name %> is <%= @price %>
+
+	<% else %>
+		There is no stock under that name
+	<% end %>
+</p>

@@ -1,0 +1,61 @@
+body {
+	color: white;
+	background-color: grey;
+}
+
+.container {
+	max-width: 960px;
+	margin: auto;
+	border: 1px dotted pink;
+}
+
+nav {
+	background-color: black;
+	text-align: left;
+	padding: 0.5em;
+}
+
+nav h1 {
+	font-size: 100%;
+	color: black;
+	display: inline;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: inline;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav a {
+	color: white;
+}
+input {
+	color: black;
+}
+
+footer {
+	text-align: right;
+}
+
+section.forms-example {
+	margin-top: 4ems;
+
+}
+label {
+	min-width: 155px;
+	display: inline-block; 
+	text-align: right;
+}
+
+
+
+
+
+
+

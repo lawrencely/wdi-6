@@ -1,0 +1,19 @@
+require 'pry'
+
+class Year
+	def initialize(year)
+	@year = year
+	end
+
+	def leap?
+	# this quote should explain the below
+	@year % 4 == 0 && ((@year % 100 != 0) || (@year % 400 == 0))
+end
+def divides_by_4
+	(@year % 4) == 0
+
+end
+
+def divides_by_100
+	@year
+binding.pry

@@ -1,0 +1,23 @@
+<form action"/calc">
+	<input name='first' placeholder='first'>
+	<input name='operator' placeholder 'operator'>
+	<input name='second' placeholder 'second'>
+	<button>Calculate!</button>
+
+</form>	
+
+
+
+
+<%= if @result %>
+<p>
+<%= params[:first] %>
+</p>
+<p>
+<%= params[:second] %>
+</p>
+<p>
+result: <b><%= @result %></b>
+</p>
+
+

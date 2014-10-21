@@ -1,0 +1,5 @@
+<h2><%= @artist.name %></h2>
+
+<%= image_tag(@artist.image) %>
+
+<%= link_to 'delete', @artist, :method => :delete, :data => {:confirm => 'are you sure?' }  %>

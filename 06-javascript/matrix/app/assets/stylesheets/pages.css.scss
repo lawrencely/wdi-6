@@ -1,0 +1,13 @@
+.box {
+  min-width: 3em;
+  height: 3em;
+  display: inline-block;
+  border: 1px dashed #0f0;
+  text-align: center;
+  line-height: 3em;
+}
+
+body {
+  background-color: #020;
+  color: #0f0;
+}

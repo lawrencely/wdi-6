@@ -1,0 +1,27 @@
+<div class="input-section">
+  <form action"/">
+    <input class="input-function" name="movie_title" placeholder="Search Movie">
+    <button>Search Now!</button>
+  </form>
+</div>
+  <div class="view">
+  <p> <% if @poster.nil? %>
+    Movie Look Up! The place to go when your stuck in the snow!
+    <% else %>
+    The movie you have searched for is <%= params['movie_title'] %>
+
+    <% end %>
+    </p>
+  </div>
+		<div class="rest-of-the-shit">
+			<p class="description"><p>Title:</p>
+			<p><%= @title %></p>
+			<p> The Plot: </p>
+			<p><%= @plot %></p>
+			<p>Director:</p>
+			<p><%= @director %></p>
+			<p>Actors:</p>
+			<p><%= @actors %></p></p>
+
+		</div>
+		    			<img class="image" src="<%= @poster %>">

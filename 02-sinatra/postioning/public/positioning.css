@@ -1,0 +1,62 @@
+body {
+	background-color: rgb();
+	min-height: 1000em; /*so you can scroll down and work with elements*/
+}
+
+
+.container {
+	max-width: 960px;
+	border: 5px dashed blue;
+}
+
+.box {
+	width: 10em;
+	height: 10em;
+	border: 1px solid black;
+}
+
+.static {
+	position: static;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	top: 67px;
+	right: 56%;
+}
+
+.fixed {
+	position: fixed;
+	right: 5%;
+	top: 150px;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+	color: white;
+}
+
+.z-index1 {
+	z-index: 1;
+	background-color: black;
+	left: 50%;
+	top: 45%;
+}
+
+.z-index2 {
+	z-index: 2;
+	background-color: white;
+	left: 50%;
+	top: 50%;
+}
+
+.z-index3 {
+	z-index: 3;
+	background-color: red;
+	left: 50%;
+	top: 55%;
+}

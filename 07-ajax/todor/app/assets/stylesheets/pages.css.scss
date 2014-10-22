@@ -1,0 +1,19 @@
+.hero {
+  background-image: url(http://www.fillmurray.com/960/1100);
+  width: 100%;
+  min-height: 20em;
+  border: 1px solid black;
+}
+
+.about {
+  min-height: 1000em;
+}
+
+.bubble {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border: 1px solid blue;
+  background-color: rgba(0,0,100,0.1);
+  border-radius: 100%;
+}

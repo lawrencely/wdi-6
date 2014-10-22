@@ -1,0 +1,30 @@
+.container {
+  display: inline-block;
+  overflow: hidden;
+
+}
+
+p {
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.multipleMovie {
+  max-width: 200px;
+  display: inline-block;
+  padding: 30px;
+}
+
+.multipleMovie p {
+  white-space: wrap;
+}
+
+.title {
+  display: inline-block;
+  padding: 10px;
+}
+
+body {
+  border-left: 100px;
+  max-height: 100%;
+}

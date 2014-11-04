@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+
+body {
+  background-color: rgb(51,153,51);
+  color: white;
+  font-family: 'Bitter', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+}
+
+.field, .bet, .sweep2, .sweep5 {
+  float: left; /* FUCK YOU GUYS */
+}
+
+.sweep2, .sweep5 {
+  padding: 0 1em;
+}
+
+.field li {
+  min-height: 21px;
+}
+
+.active {
+  text-shadow: 0 0 10px #0ff;
+  text-decoration: underline;
+  font-weight: bold;
+}

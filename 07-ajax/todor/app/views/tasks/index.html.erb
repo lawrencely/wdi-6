@@ -8,3 +8,17 @@
 
   <%= f.submit %>
   <% end %>
+
+<script type="template/handlebars" id="taskTemplate">
+<li>
+  {{#if completed }}
+    <input type="checkbox" checked="checked">
+  {{else}}
+    <input type="checkbox">
+  {{/if}}
+  <a href="/tasks/{{ id }}">
+    {{ description }}
+  </a>
+  <button>&#10008;</button>
+</li>
+</script>

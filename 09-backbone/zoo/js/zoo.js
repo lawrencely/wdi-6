@@ -69,6 +69,6 @@ var AppRouter = Backbone.Router.extend({
 });
 
 $(document).ready(function () {
-  var appRouter = new AppRouter();
+  var zooRouter = new AppRouter();
   Backbone.history.start();
 });

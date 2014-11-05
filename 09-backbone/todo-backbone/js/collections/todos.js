@@ -7,7 +7,7 @@ var app = app || {};
 var TodoList = Backbone.Collection.extend({
 
   //reference to this collection's model.
-  model: app.Todo,
+  model: app.Todo, // the model type used by collection.create() to instantiate new model in collection
 
   localStorage: new Backbone.LocalStorage('todos-backbone'),
 
@@ -40,5 +40,5 @@ var TodoList = Backbone.Collection.extend({
 });
 
 //Create our global collection of **todos**
-app.Todos = new Todolist();
+app.Todos = new TodoList();
 

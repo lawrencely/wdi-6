@@ -1,0 +1,17 @@
+// regex notes
+
+/foo/       # leaning tooth pics
+.           #any character
+
+e.g word = 'bfoo'
+word =~ /.foo/
+
+i           # case insensitive
+[]          # class - character class - matches a single character
+
+* || ? || +   # quantifiers
+*             # 0 or more
+?             # 0 or 1
++             # 1 or more
+
+.match        #matches

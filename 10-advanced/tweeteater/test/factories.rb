@@ -5,7 +5,7 @@ FactoryGirl.define do
 
     factory :user_with_tweets do |f|
       after(:create) do |u|
-        FactoryGirl.create_list(:tweet, Random.rand(10..500), :user => 5)
+        FactoryGirl.create_list(:tweet, Random.rand(10..500), :user => u)
       end
     end
   end

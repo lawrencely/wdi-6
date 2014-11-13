@@ -7,6 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 User.destroy_all
+Tweet.destroy_all
 
-FactoryGirl.create_list :user_with_tweets, 100
+FactoryGirl.create_list(:user_with_tweets, 100)
 

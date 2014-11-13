@@ -7,4 +7,10 @@ class FruitsController < ApplicationController
       format.json { render :json => @fruits }
     end
   end
+
+  def new
+  end
+
+  def create
+  end
 end

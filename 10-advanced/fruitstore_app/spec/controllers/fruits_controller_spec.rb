@@ -26,7 +26,6 @@ RSpec.describe FruitsController, :type => :controller do
       it 'should render the index template' do
         expect(response).to render_template('index')
       end
-
     end
 
     describe 'as JSON' do
@@ -48,7 +47,36 @@ RSpec.describe FruitsController, :type => :controller do
         expect(fruits.length).to eq(3)
         expect(fruits.first['name']).to eq('Fruit number 2')
       end
+    end
 
+    describe 'POST to create' do
+      describe 'a fruit with valid information' do
+        before do
+          post :create, { :fruit => { :name => 'Strawberry'} }
+        end
+
+        it 'should redirect to the show action' do
+          expect(response).to render_template('create')
+        end
+
+        it 'should increase the number of Fruits ' do
+
+
+        end
+      end
+
+      describe 'a fruit without a name ' do
+        before do
+          post :create, {}
+        end
+
+        it 'should render the new template' do
+
+        end
+
+        it 'should increase the number of fruits' do
+        end
+      end
     end
   end
 end

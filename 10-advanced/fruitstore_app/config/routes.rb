@@ -8,5 +8,5 @@
 #
 
 Rails.application.routes.draw do
-  resources :fruits, :only => [:index]
+  resources :fruits
 end

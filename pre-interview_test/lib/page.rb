@@ -48,5 +48,3 @@ Page = Struct.new(:name, :content, :links) do
   end
 end
 
-# currently doesnt alert users if links refers to unknown Page.name
-# also doesnt alert users that Page.name already exist
